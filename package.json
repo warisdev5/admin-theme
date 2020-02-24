@@ -1,0 +1,38 @@
+{
+  "name": "hq-admin",
+  "version": "1.0.0",
+  "description": "Admin Theme",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "admin",
+    "theme"
+  ],
+  "author": "Malik Waris",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "auto-prefixer": "^0.4.2",
+    "autoprefixer": "^9.7.4",
+    "css-loader": "^3.4.2",
+    "fibers": "^4.0.2",
+    "file-loader": "^5.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.25.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
